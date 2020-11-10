@@ -1,0 +1,102 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.atas{
+	background-color: 	#CD5C5C;
+
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	color: black;
+	font-style: italic;
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+}
+header ul {
+	padding: 2%;
+	margin: 0;
+	float: right;
+}
+header ul li{
+	padding: 5px 5px;
+	display: inline-block;
+}
+header ul li a{
+	padding:25px 20;
+	font-size: 20px;
+	font-style: normal;
+	display: inline-block;
+}
+header ul li a:hover {
+	background-color: #148F77;
+	color: #fff;
+}
+.banner {
+	height: 60vh;
+	background-image: url('imeg.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: '';
+	display: block;
+	position:  absolute;	
+}
+
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	margin-bottom: 20px;
+}
+.about p {
+	color: #666;
+	word-spacing: 2px;
+	line-height: 25px;
+}
+.biodata{
+	background-color: yellow;
+	text-align: center;
+}
+
+.image{
+	float: right;
+}
+.data{
+ padding: 20px 20px;
+ word-spacing: 2px;
+ letter-spacing: 2px;
+ white-space: 5px;
+ margin-top: 20px;
+ background-color: 	#F4A460;
+}
+.jenjang{
+	margin-top: 5px;
+}
+.data2{
+	padding: 20px 20px;
+ word-spacing: 2px;
+ letter-spacing: 2px;
+ white-space: 5px;
+ margin-top: 20px;
+ background-color: 	#F4A460;
+}
